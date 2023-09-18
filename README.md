@@ -2,4 +2,8 @@
 This repository serves as a display for two programming projects that I worked on this past year.
 
 # ChefPort Backend
-ChefPort is an idea for a website that serves as a 
+Chefport is a prototype website that myself and two other colleagues worked on this past semester.
+It is a web application in which users can create, save and share food recipes.
+
+Using Java with Spring framework, I created 
+
