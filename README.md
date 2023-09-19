@@ -10,8 +10,9 @@ My work on this project consisted of programming the server-side to user informa
 
 Key Backend Features:
 - Creation of a REST API which passes data from controller to service to repository, and then into the database.
-- "Sign-up" PostMapping method to create new users objects in the MongoDB Compass database.
+- "Sign-up" PostMapping method to create new users objects in the MongoDB Compass database with an HTTP POST requests.
 - "Login" PostMapping method that displays boolean output based on whether a user with the inputted password exists in the database.
 - GetMapping method to return existing users in the database.
 
+# Oxygen Data Plotting with MATLAB 
 
