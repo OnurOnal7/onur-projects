@@ -16,4 +16,9 @@ Key Backend Features:
 
 # Oxygen Data Plotting with MATLAB 
 As part of cold welding project in Aerospace Engineering deparment at Iowa State, 
-I wrote a MATLAB program that
+I wrote a MATLAB program that plots a CSV file on oxygen data collected by our oxygen monitors.
+
+Key Programmatic Features:
+- Nested for loop to detect and fix jump spots in data collection.
+- Use of the "semilogy" function that graphs logarithmically to clarify scale for exponential curve.
+- Highlighting maximum and minimum points and creating vector to represent the average oxygen level.
