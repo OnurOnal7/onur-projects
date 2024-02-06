@@ -1,0 +1,8 @@
+The Terrian Generation problem was carried out by a primary function generate_map().
+The function first sets the borders as rocks and places gates.
+After generating the bounds of the map, it plants a total of six seeds of regions across the map.
+It calls an algorithm that recursively grows each region turn-by-turn to conduct the initial growth phase.
+Then it extraploates the larger regions into the whole map iteratively.
+Next, the remaining empty spots are filled, and trees added to grass regions.
+Paths are drawn from W-E and N-S exit points.
+Lastly, one pokemart and one pokemon center in placed besides a random gate.
