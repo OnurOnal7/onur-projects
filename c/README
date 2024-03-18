@@ -1,0 +1,16 @@
+The character and trainer assignment involves creating and implemnting a set of NPC's that move with accordance
+to the topological map created in last weeks assignment.
+I created a switch --numtrainers with default value 10 to set the amount of trainers there will be in the map.
+The first two trainers are always either hiker or rival and no more than 50 trainers are allowed to be placed.
+The triners are stored in a dynamically allocated Cell struct array and are added
+to the map by generating random indexes until an available spot is selected.
+I implemented a priority queue where the top of the queue is the triner with the lowest sequence number.
+The moveCharacter() function runs for the top element of the queue, popping the element each time until
+the queue is empty, and then the queue is populated again with updated sequence numbers.
+Hikers and rivals move the direction of a lowest cost, and the other characters move in single directions only.
+
+In last week's assignment, I implemented my cost map without using djikstra and instead used an iterative spiral 
+approach to create my cost map.
+Because of this, the hiker and rival characters do not always move towards the PC, and occasionally get
+stuck oscillating between two locations at the top of the map.
+This is to say that although these issues appear in assignment 1.04, they occur because of a mistake made in 1.03.

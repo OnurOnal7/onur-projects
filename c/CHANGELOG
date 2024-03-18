@@ -1,0 +1,19 @@
+1/30 7:00 PM: Finished Terrian Generation.
+2/5 3:00 PM: Tried moving from map to map using seed method.
+2/5 6:00 PM: Seed method did not work.
+2/6 6:00 PM: Tried moving from map to map using map template method.
+2/7 8:00 PM: Partially finished moving from map to map.
+2/13 7:00 PM: Added PC to a random point in the road.
+2/13 9:30 PM: Removed ncurses and used printf instead.
+2/15 12:00 PM: Separated generate map and print map functions.
+2/17 11:00 PM: Blocked exits at edges of the world and stored previously generated maps.
+2/20 3:00 PM: Implemented topological cost map using custom iteratative spiral solution.
+2/23 5:00 PM: Added static characters the map.
+2/24 10:00 AM: Commented out n,s,e,w,f,q commands to remain in one map.
+2/25 3:00 PM: Added color to map.
+2/27: 12:00 PM: Fixed error with bus error when implementing --numtrainer switch.
+2/28 8:00 PM: Implemented discrete event simulator for character movement using priority queue.
+3/16 4:00 PM: Changed map printing to ncurses.
+3/16 6:00 PM: Implemented basic movement for PC.
+3/16 8:00 PM: Implemented entering and exiting pokemart/pokemon center.
+3/17 12:30 PM: Implemented trainer list and navigation using windows.
